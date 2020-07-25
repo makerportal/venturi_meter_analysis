@@ -65,16 +65,16 @@ void loop() {
   } else{
     delta_P = 5000.0*((adc_avg/1023.0)-0.5); // actual differential pressure
   }
-//  Serial.print(pwm_val); // print PWM value
-//  Serial.print(","); // comma separate
+  Serial.print(pwm_val); // print PWM value
+  Serial.print(","); // comma separate
  
   Serial.println(delta_P); // print delta P
-//  Serial.print(","); // comma separate
+  Serial.print(","); // comma separate
  
-//  Serial.print(bme.readPressure()); // print barometric pressure
-//  Serial.print(","); // comma separate
+  Serial.print(bme.readPressure()); // print barometric pressure
+  Serial.print(","); // comma separate
  
-//  Serial.println(bme.readTemperature()); // print temperature
+  Serial.println(bme.readTemperature()); // print temperature
 
   delay(100); // delay for stability
 
