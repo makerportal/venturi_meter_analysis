@@ -12,3 +12,4 @@ The Arduino code controls a 12V DC fan via PWM from 0 - 100%, while simultaneous
 ##
 The Python code acquires data in real-time from the Arduino board and saves the data into a comma-separated value (CSV) file. The differential pressure and barometric pressure are subsequently plotted as a function of PWM.
 ##
+![](https://static1.squarespace.com/static/59b037304c0dbfb092fbe894/t/5f1b74707b6273648c202b45/1595634868218/venturi_meter_setup_image.JPG?format=1500w)
